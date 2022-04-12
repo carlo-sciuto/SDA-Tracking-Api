@@ -1,0 +1,17 @@
+{
+    "baseURL": "https://www.sda.it/wps/portal/Servizi_online/dettaglio-spedizione/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zifT1dLAy9nA38_Y2NnQ0CnS0MzI0sXA0M3Mz1w8EKDHAARwP9KGL041EQhd_4cP0oNCvcQp2AJgSYeRn7eBob-JtCFeAxw0s_Kj0nPwno3YLc0AiDLFNHACn_eFA!/dz/d5/L2dBISEvZ0FBIS9nQSEh/",
+    "endpoints": {
+        "home": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPVIEW=/",
+        "ricercaRitiro": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPricercaRitiro.json=/",
+        "inviaSMSEmail": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPinviaSMSEmail.json=/",
+        "ricercaSpedizione": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPricercaSpedizione.json=/",
+        "inviaAnnullaRitiro": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPinviaAnnullaRitiro.json=/",
+        "dettaglioGiacenza": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPdettaglioGiacenza.json=/",
+        "svincoloSpedizione": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPsvincoloSpedizione.json=/",
+        "sendCodiceAutorizzativo": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPsendCodiceAutorizzativo.json=/",
+        "modificaDestinazione": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPmodificaDestinazione.json=/",
+        "ricavaElencoLocalita": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPricavaElencoLocalita.json=/",
+        "dettaglioRicerca": "/wps/portal/Servizi_online/dettaglio-spedizione?locale=it",
+        "ricavaListaKipoint": "p0/IZ7_MID81JC0OO33C0QC80728E0G81=CZ6_MID81JC0OO33C0QC80728E00F7=NJQCPricavaListaKipoint.json=/"
+    }
+}
