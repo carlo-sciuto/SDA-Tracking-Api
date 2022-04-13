@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tracking SDA
 <br />
 >Rapid-API with Express for Tracking SDA Shippings
@@ -45,10 +44,3 @@ If you want to get full access on SDA API you can request officially at: [SDA](h
 ## License
 
 [MIT](LICENSE) © Carlo Sciuto
-
-
-=======
-# sdaTracingApi
-Rapid-API with Express for Tracking SDA Shippings
-<br /><br />main
->>>>>>> 3bf040d62d1813e2288e0d88d3b01dcd3534b346
