@@ -1,6 +1,11 @@
 import fetch from 'node-fetch'
-import 'dotenv/config'
-import config from '../config.json' assert { type: 'json' };
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
+import {configSDA} from '../config/config.js'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 /**
  * Get SDA API from BarCode.
@@ -11,7 +16,18 @@ import config from '../config.json' assert { type: 'json' };
 
 const getShip = async (ldv, callback) => {
 
-    //const updateConfig = await fetch('');
+    const unixTime = Math.floor(Date.now() / 1000);
+    console.log(path.resolve(__dirname, '../config/config.json'));
+    
+    //Read CONFIG JSON
+    const configJSON = fs.readFileSync(path.resolve(__dirname, '../config/config.json'), 'utf8');
+    let config = JSON.parse(configJSON);
+
+    if(unixTime+(24*60*60) > config.unix) {
+        let reConfig = await configSDA();
+        config = JSON.parse(reConfig.data);
+        console.log(config);
+    }
 
     const endpoint = config.baseURL + config.endpoints.ricercaSpedizione;
 
